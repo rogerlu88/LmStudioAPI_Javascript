@@ -20,14 +20,20 @@ LmStudioAPI_Javascript/
 └── package.json       # Project dependencies
 ```
 
-## Setup and Installation
+## Installation
 
-1. Install Dependencies:
 ```bash
 npm install
 ```
 
-2. Configure LM Studio:
+To run the application:
+```bash
+npm start
+```
+
+## Setup and Installation
+
+1. Configure LM Studio:
    - Open LM Studio
    - Load your preferred model
    - Go to Server tab
@@ -36,12 +42,7 @@ npm install
    - Enable "Serve on Local Network"
    - Click "Start Server"
 
-3. Start the Application:
-```bash
-npm start
-```
-
-4. Access the application at `http://localhost:3000`
+2. Access the application at `http://localhost:3000`
 
 ## How It Works
 
